@@ -1,59 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue';
 }
+
 @media screen and (max-width: 768px) {
-    .menu-header {
-        display: none;
-        flex-direction: column;
-        justify-content: space-around;
-        background-color: rgba(0, 0, 0, 0.90);
-        position: absolute;
-        top: 80px;
-        left: 0px;
-        height: 300px;
-        width: 100%;
-    }
-}
-.titulo-senai {
+  .menu-header {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.90);
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+  }
+  .titulo-senai {
     font-size: 42px;
-}
-.menu-barras {
+  }
+  .menu-barras {
     display: initial;
-}
-#icone-menu {
+  }
+  #icone-menu {
     color: white;
     font-size: 30px;
-}
-.banner {
+  }
+  .banner {
     background-image: url(../img/imagem-fundo-ranking.jpg);
-}
-.imagem-sobre {
+  }
+  .imagem-sobre {
     width: 100%;
-}
-.texto-sobre {
+  }
+  .texto-sobre {
     width: 100%;
     height: unset;
-}
-.conteudo-info {
+  }
+  .conteudo-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 480px;
     justify-content: space-between;
-}
-.conteudo-sobre {
+  }
+  .conteudo-sobre {
     flex-direction: column;
     align-items: center;
-}
-.container-mapa {
+  }
+  .container-mapa {
     position: relative;
     overflow: hidden;
     width: 100%;
     padding-top: 20%;
-}
-.mapa-responsivo {
+  }
+  .mapa-responsivo {
     position: absolute;
     margin-top: 10px;
     top: 0;
@@ -62,15 +62,15 @@ body {
     bottom: 0;
     width: 100%;
     height: 100%;
-}
-.container-video {
+  }
+  .container-video {
     position: relative;
     overflow: hidden;
     width: 100%;
     padding-top: 30%;
     max-height: 200px;
-}
-.video-responsivo {
+  }
+  .video-responsivo {
     position: absolute;
     margin-top: 10px;
     top: 0;
@@ -79,4 +79,13 @@ body {
     bottom: 0;
     width: 100%;
     height: 100%;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .menu-header {
+    display: flex !important;
+  }
+  
 }
